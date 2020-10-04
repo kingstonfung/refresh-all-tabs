@@ -1,0 +1,22 @@
+{
+  "name": "Refresh All Tabs",
+  "version": "0.0.0.1",
+  "manifest_version": 2,
+  "description": "Refresh all tabs, bypassing locally stored cache (aka hard-refresh). That is all.",
+  "icons": {
+    "16": "img/icon16.png",
+    "48": "img/icon48.png",
+    "128": "img/icon128.png"
+  },
+  "browser_action": {
+    "default_icon": "img/icon128.png",
+    "default_title": "Refresh All Tabs"
+  },
+  "background": {
+    "scripts": ["js/refresh-all-tabs.js"],
+    "persistent": false
+  },
+  "permissions": [
+    "tabs"
+  ]
+}
