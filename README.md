@@ -6,6 +6,8 @@ No frills, no quirks, no secrets. Just click, and refresh. Works on Chrome, Fire
 
 If you need to do anything more than that, then probably this extension isn't for you :)
 
+As of June 2024, I have added a simple "click counter" to track usages. I scrubbed all headers and cookie informations, so the `fetch` request is simply a "clean hit" to my endpoint that adds 1 to my counter.
+
 ---
 Download it for Chrome: https://chrome.google.com/webstore/detail/refresh-all-tabs/admnmicookbgmlgijaaonkeeclaoigch
 

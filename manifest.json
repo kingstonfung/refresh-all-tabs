@@ -1,6 +1,6 @@
 {
   "name": "Refresh All Tabs",
-  "version": "0.0.0.1",
+  "version": "1.0.0.1",
   "manifest_version": 3,
   "description": "Refresh all tabs, bypassing locally stored cache (aka hard-refresh). That is all.",
   "icons": {
