@@ -9,7 +9,7 @@
     "128": "img/icon128.png"
   },
   "background": {
-    "service_worker": "service_worker.js"
+    "scripts": ["service_worker.js"]
   },
   "permissions": [
     "tabs"
@@ -21,5 +21,11 @@
     "default_icon": "img/icon128.png",
     "default_title": "Refresh All Tabs"
   },
-  "content_security_policy": {}
+  "content_security_policy": {},
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "{5a696334-520c-45ee-b0f6-2c110f805e53}",
+      "strict_min_version": "109.0"
+    }
+  }
 }
